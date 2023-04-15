@@ -1,0 +1,74 @@
+:root {
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+
+  --primary-text-color: #2e2f42;
+  --link-color: #4d5ae5;
+  --secondary-text-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --active-color: #404bbf;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto";
+  background-color: #ffffff;
+  text-decoration: none;
+}
+/* General classes */
+.btn {
+  font-family: inherit;
+}
+
+/* HEADER */
+.header-logo {
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  width: 71px;
+  height: 21px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--link-color);
+}
+.nav-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--primary-text-color);
+}
+.footer-logo {
+  color: var(--footer-text-color);
+  width: 71px;
+  height: 21px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.footer-descr {
+  color: var(--footer-text-color);
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
