@@ -10,9 +10,9 @@
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: #434455;
 }
 /* General classes */
 .btn {
