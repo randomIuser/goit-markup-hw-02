@@ -68,7 +68,7 @@ body {
 .logo-web {
   color: var(--primary-text-color);
 }
-.nav-list {
+.list {
   list-style: none;
   font-style: normal;
   font-weight: 500;
