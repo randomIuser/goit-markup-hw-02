@@ -1,6 +1,6 @@
 :root {
-  --primary-font: "Roboto";
-  --secondary-font: "Raleway";
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --primary-text-color: #2e2f42;
   --link-color: #4d5ae5;
   --secondary-text-color: #434455;
@@ -10,9 +10,9 @@
 }
 
 body {
-  font-family: "Roboto";
-  background-color: #ffffff;
+  font-family: var(--primary-font);
   text-decoration: none;
+  color: var(--secondary-text-color);
 }
 /* General classes */
 .btn {
@@ -39,6 +39,9 @@ body {
 .values-header {
   display: none;
 }
+.list {
+  list-style: none;
+}
 
 /* HEADER */
 .header-section {
@@ -46,14 +49,15 @@ body {
 }
 .header-logo {
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--link-color);
   width: 71px;
   height: 21px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -61,7 +65,7 @@ body {
   padding: 0px;
 }
 .logo-web {
-  color: var(--link-color);
+  color: var(--primary-text-color);
 }
 .nav-list {
   list-style: none;
