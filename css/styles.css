@@ -68,21 +68,24 @@ body {
 .logo-studio {
   color: var(--primary-text-color);
 }
-.list {
-  list-style: none;
+.nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+.conntacts {
+  font-style: normal;
 }
 .contacts-list {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
