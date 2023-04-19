@@ -261,7 +261,7 @@ body {
 }
 .products-name {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: flex-start;
   padding: 0px 16px;
@@ -275,7 +275,7 @@ body {
 }
 .products-descr {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: flex-start;
   padding: 0px 16px;
