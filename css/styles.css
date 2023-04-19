@@ -124,7 +124,7 @@ body {
   gap: 10px;
   cursor: pointer;
 }
-.srvc-btn:hover:focus {
+.srvc-btn:hover {
   background-color: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -198,6 +198,9 @@ body {
   letter-spacing: 0.02em;
 }
 /* FILTERS */
+.filters-heading {
+  display: none;
+}
 .filter-list {
   list-style: none;
   display: flex;
