@@ -82,19 +82,21 @@ body {
 .nav-link:focus {
   color: #404bbf;
 }
-.conntacts {
+.contacts {
   font-style: normal;
 }
-.contacts-list {
+.contacts-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  color: var(--secondary-text-color);
+}
+.contacts-item:hover {
+  color: #404bbf;
+}
+.contacts-item:focus {
+  color: #404bbf;
 }
 
 /* HERO */
