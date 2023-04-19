@@ -285,15 +285,20 @@ body {
   background-color: var(--primary-text-color);
 }
 .footer-logo {
-  color: var(--footer-text-color);
+  color: var(--link-color);
   width: 71px;
   height: 21px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  text-transform: uppercase;
+}
+.footer-studio {
+  color: var(--footer-text-color);
 }
 .footer-descr {
   color: var(--footer-text-color);
