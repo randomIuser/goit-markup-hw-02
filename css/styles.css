@@ -124,12 +124,7 @@ body {
   gap: 10px;
   cursor: pointer;
 }
-.srvc-bnt:hover {
-  background-color: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.srvc-but:focus {
+.srvc-btn:hover:focus {
   background-color: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
