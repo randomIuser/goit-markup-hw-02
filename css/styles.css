@@ -7,13 +7,14 @@
   --footer-text-color: #f4f4fd;
   --active-color: #404bbf;
   --borders-color: #e7e9fc;
+  --active-btn-text: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--active-btn-text);
 }
 /* General classes */
 .btn {
@@ -21,11 +22,6 @@ body {
 }
 .section-title {
   color: var(--primary-text-color);
-  width: 323px;
-  height: 40px;
-  left: 559px;
-  top: 1016px;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -51,17 +47,12 @@ body {
 .header-logo {
   text-transform: uppercase;
   color: var(--link-color);
-  width: 71px;
-  height: 21px;
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0px;
 }
@@ -69,7 +60,6 @@ body {
   color: var(--primary-text-color);
 }
 .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,26 +67,25 @@ body {
   color: var(--primary-text-color);
 }
 .nav-link:hover {
-  color: #404bbf;
+  color: var(--active-color);
 }
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--active-color);
 }
 .contacts {
   font-style: normal;
 }
 .contacts-item {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .contacts-item:hover {
-  color: #404bbf;
+  color: var(--active-color);
 }
 .contacts-item:focus {
-  color: #404bbf;
+  color: var(--active-color);
 }
 
 /* HERO */
@@ -104,8 +93,7 @@ body {
   background-color: var(--primary-text-color);
 }
 .hero-slogan {
-  color: #ffffff;
-  font-style: normal;
+  color: var(--active-btn-text);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -114,28 +102,25 @@ body {
 }
 .srvc-btn {
   background-color: var(--link-color);
-  color: #ffffff;
+  color: var(--active-btn-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
   cursor: pointer;
 }
 .srvc-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .srvc-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -143,38 +128,26 @@ body {
 /* VALUES */
 .values-list {
   list-style: none;
-  display: flex;
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
 }
 .value-header {
-  width: 264px;
   letter-spacing: 0.02em;
-  height: 24px;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--primary-text-color);
 }
 .value-content {
-  width: 264px;
-  height: 72px;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 /* SERVICES */
 .service-list {
   list-style: none;
-  display: flex;
   align-items: flex-start;
   padding: 0px;
 }
@@ -184,69 +157,59 @@ body {
 }
 .team-list {
   list-style: none;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
 }
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--active-btn-text);
 }
 .team-name {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
 .team-descr {
   color: var(--secondary-text-color);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
 /* FILTERS */
 .filter-list {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 0px;
   gap: 24px;
 }
 .btn {
   color: var(--link-color);
   background-color: var(--footer-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--borders-color);
   border-radius: 4px;
   cursor: pointer;
 }
 .btn:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--active-btn-text);
+  background-color: var(--active-color);
 }
 .btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--active-btn-text);
+  background-color: var(--active-color);
 }
 .btn:active {
-  color: #ffffff;
+  color: var(--active-btn-text);
   background-color: var(--active-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -259,19 +222,11 @@ body {
 .products-item {
   box-sizing: border-box;
   border: 1px solid var(--borders-color);
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
 }
 .products-name {
-  display: flex;
-
   justify-content: center;
-  align-items: flex-start;
   padding: 0px 16px;
   gap: 8px;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -279,14 +234,9 @@ body {
   color: var(--primary-text-color);
 }
 .products-descr {
-  display: flex;
-
   justify-content: center;
-  align-items: flex-start;
   padding: 0px 16px;
   gap: 8px;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -298,10 +248,7 @@ body {
 }
 .footer-logo {
   color: var(--link-color);
-  width: 71px;
-  height: 21px;
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -315,8 +262,6 @@ body {
 .footer-descr {
   color: var(--footer-text-color);
   font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 }
