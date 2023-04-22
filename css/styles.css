@@ -136,7 +136,7 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   color: var(--primary-text-color);
 }
 .value-content {
@@ -169,7 +169,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
 }
